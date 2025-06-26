@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrián Olmedo - SysAdmin & DevOps</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-container">
+      <span class="logo">ADRIAN OLMEDO</span>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#micv">Mi C.V.</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO -->
+  <div class="container">
+    <header>
+      <img src="img/foto-cv.png" alt="Foto de Adrián" class="mi_foto" />
+      <h1>Adrián Olmedo</h1>
+      <h2>SysAdmin | DevOps | Cloud  Infrastructure</h2>
+    </header>
+
+    <section id="about" class="about">
+      <h3>Sobre mí</h3>
+      <p>
+        Soy un entusiasta autodidacta con formación sólida en administración de sistemas Linux, redes y virtualización. 
+        Actualmente enfocado en adquirir y aplicar conocimientos en prácticas DevOps, automatización, contenedores y CI/CD.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Administración de servidores Linux (Ubuntu, Alpine, etc.)</li>
+        <li>Virtualización con LXC y Docker</li>
+        <li>Scripting Bash y automatización</li>
+        <li>Uso y configuración de Git y GitHub</li>
+        <li>Deploy de sitios web con VPS y NGINX/Apache</li>
+        <li>WSL2 y entornos de desarrollo con VS Code</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+  <h3>Contacto</h3>
+  <form action="https://formspree.io/f/tu_codigo" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar mensaje</button>
+    <!-- Para recibir los mensajes en tu mail sin backend propio, 
+     usá https://formspree.io o https://formsubmit.co — 
+     no hace falta cuenta, solo pegás tu email y te da un código.-->
+  </form>
+</section>
+
+  </div>
+
+</body>
+</html>
